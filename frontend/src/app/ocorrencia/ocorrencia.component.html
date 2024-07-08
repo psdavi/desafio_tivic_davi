@@ -1,0 +1,14 @@
+<form >
+    <div>
+      <label for="nome">Nome:</label>
+      <input id="nome" formControlName="nome" />
+    </div>
+  
+    <div>
+      <label for="descricao">Descrição:</label>
+      <input id="descricao" formControlName="descricao" />
+    </div>
+  
+    <button type="submit" [disabled]="ocorrenciaForm.invalid">Submit</button>
+  </form>
+  
